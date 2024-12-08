@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html class="dark" lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="paper.css" />
+    <title>Reise um die Welt</title>
+
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        font-family: "Courier New", Courier, monospace;
+      }
+      .hero {
+        background: url(./Pictures/60036c39a1752da43d24fd94cdf120f6.webp)
+          no-repeat center center;
+        background-size: auto;
+        height: 300px;
+      }
+      .hero img {
+        margin-bottom: 1.25rem;
+      }
+      .content {
+        padding: 20px;
+      }
+      .card img {
+        width: 100%;
+        height: auto;
+      }
+      footer {
+        text-align: center;
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #f4f4f4;
+      }
+    </style>
+  </head>
+
+  <body class="background-danger">
+    <header class="hero">
+      <div class="container">
+        <h1 class="text-center text-xxl">Rund um die Welt</h1>
+      </div>
+    </header>
+
+    <main class="content">
+      <!-- Über mich -->
+      <section>
+        <h2>Über mich</h2>
+        <p>
+          Hallo! Ich bin ein Weltenbummler, der seine Reisegeschichten und
+          Abenteuer teilt. Folge mir, während ich Kulturen entdecke, Menschen
+          treffe und die Welt erlebe!
+        </p>
+      </section>
+
+      <!-- Reiseziele -->
+      <section>
+        <h2>Reiseziele</h2>
+        <div class="row flex-center">
+          <!-- ZIEL#1 -->
+          <div class="col-4 card">
+            <img
+              src="./Pictures/thailand-travel-landscapes-vector-illustration_24797-864.avif"
+              alt="Caricature of Items from Thailand"
+            />
+            <h3>Thailand</h3>
+            <p>
+              Erkunde die Strände, Tempel und die köstliche Küche Thailands.
+            </p>
+          </div>
+
+          <!-- Ziel 2 -->
+          <div class="col-4 card">
+            <img src="https://via.placeholder.com/300" alt="Zielbild 2" />
+            <h3>Kyoto, Japan</h3>
+            <p>
+              Tauche ein in die alte Kultur Japans, mit seinen Tempeln und der
+              Kirschblüte.
+            </p>
+          </div>
+
+          <!-- Ziel 3 -->
+          <div class="col-4 card">
+            <img src="https://via.placeholder.com/300" alt="Zielbild 3" />
+            <h3>Kapstadt, Südafrika</h3>
+            <p>
+              Entdecke die Schönheit der Natur und die Vielfalt der
+              südafrikanischen Kultur.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <!-- Kontakt -->
+      <section>
+        <h2>Kontakt</h2>
+        <form>
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input type="text" id="name" placeholder="Dein Name" />
+          </div>
+          <div class="form-group">
+            <label for="email">E-Mail</label>
+            <input type="email" id="email" placeholder="Deine E-Mail" />
+          </div>
+          <div class="form-group">
+            <label for="message">Nachricht</label>
+            <textarea id="message" placeholder="Deine Nachricht"></textarea>
+          </div>
+          <button type="submit" class="btn btn-primary">Abschicken</button>
+        </form>
+      </section>
+    </main>
+
+    <footer>
+      <p>&copy; 2024 Rund um die Welt – Alle Rechte vorbehalten.</p>
+    </footer>
+  </body>
+</html>
